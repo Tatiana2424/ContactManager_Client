@@ -1,0 +1,21 @@
+.download_button{
+    text-align: center;
+    color: #ffffff;
+    font-size: medium;
+    background-color: rgb(85, 85, 29) ;
+    height: 50px;
+    width: 170px;
+    margin-bottom: 30px;
+}
+.download_button:hover{
+    cursor: pointer;
+    background-color: rgb(116, 116, 55) ;
+}
+input#file-upload-button{
+    background-color: rgb(85, 85, 29)!important;
+    color: #ffffff!important; 
+}
+.select_button{
+    height: 50px;
+    font-size: large ;
+}
