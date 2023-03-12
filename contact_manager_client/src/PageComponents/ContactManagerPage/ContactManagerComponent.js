@@ -111,7 +111,7 @@ export const ContactManagerComponent = () => {
       key: "x",
       render: (record) => (
         <div id={`record-${record.id}`}>
-          <a
+          <p
             className="action"
             onClick={() => {
               setSelectedRecord(record);
@@ -120,8 +120,8 @@ export const ContactManagerComponent = () => {
             }}
           >
             Update
-          </a>
-          <a onClick={() => deleteContactData(record.id)}>Delete</a>
+          </p>
+          <p onClick={() => deleteContactData(record.id)}>Delete</p>
         </div>
       ),
     },

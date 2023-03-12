@@ -6,10 +6,7 @@ import UploadFileCSV from './PageComponents/ContactManagerPage/UploadFileCSV';
 
 function App() {
   return (
-     <div className='contactManager'>
-         
-      
-     {/* <UploadFile/> */}
+     <div>
      <ContactManagerComponent/>
     </div>
   );

@@ -11,10 +11,6 @@
     cursor: pointer;
     background-color: rgb(116, 116, 55) ;
 }
-input#file-upload-button{
-    background-color: rgb(85, 85, 29)!important;
-    color: #ffffff!important; 
-}
 .select_button{
     height: 50px;
     font-size: large ;
